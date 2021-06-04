@@ -50,12 +50,6 @@
   padding-left: 12px !important;
 }
 
-/* Remove unneeded styles from Photon 
-.tabbrowser-tab::before,
-.tabbrowser-tab::after {
-  border: none !important;
-}*/
-
 /* Remove uneeded styles from Proton */
 .tabbrowser-tab {
   padding-inline: 0px !important;
@@ -96,13 +90,6 @@
     }
   }
 }
-/*
-.tabbrowser-tab > .tab-stack > .tab-background {
-  background-image: none !important;
-  -moz-box-orient: horizontal !important;
-  background-color: transparent !important;
-  margin-top: 1px !important;
-}*/
 
 .tab-background[selected="true"] {
   border: none !important;
@@ -125,81 +112,15 @@
   margin: 0 !important;
 }
 
-/* overlap the tab curves 
-.tab-background {
-  -moz-margin-end: -15px !important;
-  -moz-margin-start: -15px !important;
-}*/
-
 /* Remove blue animation on tab on page load complete */
 .tab-loading-burst {
   display: none !important;
 }
 
-/* Begin tab background customizations 
-.tab-background[selected="true"]::before {
-  border: none !important;
-  content: "" !important;
-  width: 30px !important;
-  min-height: 30px !important;
-  display: -moz-box !important;
-  background-repeat: no-repeat !important;
-}
-
-.tab-background[selected="true"]::after {
-  border: none !important;
-  content: "" !important;
-  width: 30px !important;
-  min-height: 30px !important;
-  display: -moz-box !important;
-  background-repeat: no-repeat !important;
-}
-
-.tab-background[selected="true"] > spacer {
-  margin-top: 0px !important;
-}
-
-#tabs-newtab-button,
-#new-tab-button {
-  width: calc(36px + 30px) !important;
-  margin-inline-start: -15px !important;
-  margin-top: 1px !important;
-}*/
-
 /* Tab hover customizations */
 .close-icon:hover {
   border-radius: 50% !important;
 }
-
-/* Regular tabs 
-.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true])::before {
-  display: -moz-box !important;
-  background-repeat: no-repeat !important;
-  content: "" !important;
-  width: 30px !important;
-  max-height: 30px !important;
-  background-color: transparent !important;
-}
-
-.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true])::after {
-  display: -moz-box !important;
-  background-repeat: no-repeat !important;
-  content: "" !important;
-  width: 30px !important;
-  max-height: 30px !important;
-  background-color: transparent !important;
-}
-
-.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]) > spacer {
-  margin-top: 0px !important;
-}
-
-#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]),
-#tabs-newtab-button:hover,
-#tabs-newtab-button:hover::before,
-#tabs-newtab-button:hover::after {
-  background-color: transparent !important;
-}*/
 
 /* New tab hover customizations */
 .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]),
