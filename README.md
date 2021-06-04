@@ -16,7 +16,6 @@ Since Firefox 57+, the only way to customize your browser UI is through `userChr
 1. If that folder does not have a `chrome` folder, create a folder, name it `chrome`.
 1. In the `chrome` folder, create a file named `userChrome.css`
 1. Copy and paste the code into your `userChrome.css` file that you have created.
-<br/>**WARNING:** Newer versions of Firefox with Mojave or Windows 10 Dark Mode will cause Firefox to use the `Dark` theme by default. In this case, you should use the [userChrome-dark.css](./userChrome-dark.css) theme.
 1. Restart Firefox and enjoy!
 
 ### Nothing has changed for me
